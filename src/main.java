@@ -1,27 +1,16 @@
 public class main {
-}
-public class Main {
+
     public static void main(String[] args) {
+        int ticket = 6000;
+        int bonus = 20;
+        int miles = ticket / bonus;
 
-      int ticket = 6000;
-      int bonus = 20;
-      int miles Math.round ( ticket / bonus );
-
-      System.out.println( "За покупку билета" );
-
-
-
-
-
-
-
-
-        // параметров программы: одну для хранения
-        // стоимости билета, другую для хранения количества
-        // рублей для одной бонусной мили
-
-        // Рассчитываете количество бонусных миль, используя
-        // значения заведённых переменных. Ответ сохраняете в
-        // новую переменную и выводите на экран
+        System.out.println ("За покупку билета"+ticket +"руб. Ваш бонус"+ miles +"бонусных миль");
     }
-}
+
+
+   }
+
+
+
+
